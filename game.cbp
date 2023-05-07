@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="game" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/game" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="Sources" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/game" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="Sources" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Sources/BaseObject.cpp" />
+		<Unit filename="Sources/BaseObject.h" />
+		<Unit filename="Sources/CommonFunc.cpp" />
+		<Unit filename="Sources/CommonFunc.h" />
+		<Unit filename="Sources/ExplosionObject.cpp" />
+		<Unit filename="Sources/ExplosionObject.h" />
+		<Unit filename="Sources/GameMap.cpp" />
+		<Unit filename="Sources/GameMap.h" />
+		<Unit filename="Sources/ImpTimer.cpp" />
+		<Unit filename="Sources/ImpTimer.h" />
+		<Unit filename="Sources/MainObject.cpp" />
+		<Unit filename="Sources/MainObject.h" />
+		<Unit filename="Sources/PlayerPower.cpp" />
+		<Unit filename="Sources/PlayerPower.h" />
+		<Unit filename="Sources/TextObject.cpp" />
+		<Unit filename="Sources/TextObject.h" />
+		<Unit filename="Sources/ThreatsObject.cpp" />
+		<Unit filename="Sources/ThreatsObject.h" />
+		<Unit filename="main.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

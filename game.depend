@@ -1,0 +1,81 @@
+# depslib dependency file v1.0
+1683456562 source:d:\gamec++\game\main.cpp
+	<iostream>
+	"CommonFunc.h"
+	"BaseObject.h"
+	"GameMap.h"
+	"MainObject.h"
+	"ImpTimer.h"
+	"ThreatsObject.h"
+	"ExplosionObject.h"
+	"TextObject.h"
+	"PlayerPower.h"
+
+1683387561 source:d:\gamec++\game\sources\commonfunc.cpp
+	"CommonFunc.h"
+
+1683455349 d:\gamec++\game\sources\commonfunc.h
+	<windows.h>
+	<string>
+	<vector>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	"BaseObject.h"
+	"TextObject.h"
+
+1681224549 source:d:\gamec++\game\sources\baseobject.cpp
+	"BaseObject.h"
+
+1681185530 d:\gamec++\game\sources\baseobject.h
+	"CommonFunc.h"
+
+1681227895 d:\gamec++\game\sources\gamemap.h
+	"CommonFunc.h"
+	"BaseObject.h"
+
+1680891201 source:d:\gamec++\game\sources\gamemap.cpp
+	"GameMap.h"
+	<fstream>
+
+1683456266 d:\gamec++\game\sources\mainobject.h
+	"CommonFunc.h"
+	"BaseObject.h"
+
+1683456266 source:d:\gamec++\game\sources\mainobject.cpp
+	"MainObject.h"
+
+1680760214 source:d:\gamec++\game\sources\imptimer.cpp
+	"ImpTimer.h"
+	"CommonFunc.h"
+
+1680759712 d:\gamec++\game\sources\imptimer.h
+
+1680937431 d:\gamec++\game\sources\threatsobject.h
+	"CommonFunc.h"
+	"BaseObject.h"
+
+1680937431 source:d:\gamec++\game\sources\threatsobject.cpp
+	"ThreatsObject.h"
+
+1682599645 d:\gamec++\game\sources\explosionobject.h
+	"CommonFunc.h"
+	"BaseObject.h"
+
+1682599898 source:d:\gamec++\game\sources\explosionobject.cpp
+	"ExplosionObject.h"
+
+1683026821 source:d:\gamec++\game\sources\textobject.cpp
+	"TextObject.h"
+
+1683026637 d:\gamec++\game\sources\textobject.h
+	"CommonFunc.h"
+
+1683117619 d:\gamec++\game\sources\playerpower.h
+	"CommonFunc.h"
+	"BaseObject.h"
+
+1683117619 source:d:\gamec++\game\sources\playerpower.cpp
+	"PlayerPower.h"
+
