@@ -298,9 +298,10 @@ int main(int argc, char* argv[]){
         money_game.RenderText(g_screen, SCREEN_WIDTH*0.5-250, 15);
 
         SDL_RenderPresent(g_screen);
-        if(money_count%6==0&&money_count!=0){
+        while(money_count%6==0&&money_count!=0){
             num_die--;
             player_power.InitCrease();
+            break;
         }
 
         int real_imp_time = fps_timer.get_ticks();

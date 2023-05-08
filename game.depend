@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1683456562 source:d:\gamec++\game\main.cpp
+1683570944 source:d:\gamec++\game\main.cpp
 	<iostream>
 	"CommonFunc.h"
 	"BaseObject.h"
