@@ -27,9 +27,9 @@ REQUIRED :
                 
 HOW TO PLAY :
 
-  Use button UP,RIGHT,LEFT and DOWN to move the orc to dodge all the dangerous creatures
+  Use button UP,RIGHT,LEFT and DOWN to move the Orc to dodge all the dangerous creatures
 
-  Use button m to mute or unmute the background music
+  Use button 'm' to mute or unmute the background music
 
 GAME FORMAT
 
