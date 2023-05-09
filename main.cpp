@@ -134,6 +134,7 @@ int main(int argc, char* argv[]){
     ImpTimer fps_timer;
     bool is_quit=false;
     bool win_game=false;
+    bool is_muted=false;
 
     if(InitData()==false) return -1;
     if(LoadBackGround()==false) return -1;
@@ -177,11 +178,25 @@ int main(int argc, char* argv[]){
     money_game.SetColor(TextObject::WHITE_TEXT);
 
     while(!is_quit){ // render thi de trong vong while
-
         fps_timer.start();
         while(SDL_PollEvent(&g_event)!=0){
             if(g_event.type==SDL_QUIT){
                 is_quit = true;
+            }
+            else if (g_event.type == SDL_KEYDOWN) {
+                switch (g_event.key.keysym.sym) {
+                case SDLK_m: // Dùng 'M' để tắt/mở âm thanh
+                    is_muted = !is_muted;
+                    if (is_muted) {
+                        Mix_VolumeMusic(0); // Tắt âm thanh
+                    }
+                    else {
+                        Mix_VolumeMusic(MIX_MAX_VOLUME); // Mở âm thanh với âm lượng bằng một nửa âm lượng tối đa
+                    }
+                    break;
+                default:
+                    break;
+                }
             }
             p_player.HandleInputAction(g_event, g_screen);
         }
