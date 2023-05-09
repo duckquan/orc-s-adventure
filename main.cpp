@@ -185,13 +185,13 @@ int main(int argc, char* argv[]){
             }
             else if (g_event.type == SDL_KEYDOWN) {
                 switch (g_event.key.keysym.sym) {
-                case SDLK_m: // Dùng 'M' để tắt/mở âm thanh
+                case SDLK_m:
                     is_muted = !is_muted;
                     if (is_muted) {
-                        Mix_VolumeMusic(0); // Tắt âm thanh
+                        Mix_VolumeMusic(0);
                     }
                     else {
-                        Mix_VolumeMusic(MIX_MAX_VOLUME); // Mở âm thanh với âm lượng bằng một nửa âm lượng tối đa
+                        Mix_VolumeMusic(MIX_MAX_VOLUME);
                     }
                     break;
                 default:
