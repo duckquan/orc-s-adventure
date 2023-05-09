@@ -22,9 +22,8 @@ REQUIRED :
   SDL_Library { SDL,SDL_image,SDL_ttf,SDL_mixer } (Download at :https://github.com/libsdl-org/SDL/releases/tag/release-2.26.4)
 
   Instruction :
-                https://lazyfoo.net/tutorials/SDL/index.php
-  
-                https://phattrienphanmem123az.com/
+              +  https://lazyfoo.net/tutorials/SDL/index.php
+              +  https://phattrienphanmem123az.com/
                 
 HOW TO PLAY :
 
