@@ -33,7 +33,7 @@ HOW TO PLAY :
 
 GAME FORMAT
 
-   At the start of the game, you are given three lives. If you collect six pieces of gold, you will earn an extra life. However, beware of the dangerous creatures lurking in the      forest. If you come into contact with any of them, you will lose a life.
+   At the start of the game, you are given three lives. If you collect six pieces of gold, you will earn an extra life. However, beware of the dangerous creatures lurking in the      forest. If you come into contact with any of them, you will lose a life. You will lose if you run out of lives or if the countdown timer reaches zero.
 
    Your mission is to help the Orc find the clan's treasure hidden deep within the forest. The game is won when the Orc reaches the treasure chest.
 
